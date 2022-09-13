@@ -1,5 +1,3 @@
-
-
 const screen1 = document.querySelector(".screen1")
 const screen2 = document.querySelector(".screen2")
 const btnTry = document.querySelector("#btnTry")
@@ -17,9 +15,6 @@ event.preventDefault()
 
 const inputNumber = document.querySelector('#inputNumber')
 
-
-// console.log(inputNumber.value)
-
 if(Number(inputNumber.value) == randomNumber) {
   toggleScreen()
   
@@ -33,24 +28,6 @@ xAttempts++
 }
 
 
-// let result = prompt("Adivinhe o número que estou pensando? Está entre 0 e 10.")
-
-
-
-// let xAttempts = 1
-
-// while(Number(result) != randomNumber) {
-//   result = prompt("Você errou! Tente outra vez.")
-//   xAttempts++
-// }
-// if (randomNumber >1) {
-
-// alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você acertou em apenas ${xAttempts} tentativas!`)
-// }  
-// else {
-
-//   alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você acertou em apenas 1 tentativa!`)
-// }
 
 
 
