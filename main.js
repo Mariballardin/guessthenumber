@@ -1,4 +1,4 @@
-const { handle } = require("express/lib/application")
+
 
 const screen1 = document.querySelector(".screen1")
 const screen2 = document.querySelector(".screen2")
@@ -10,12 +10,7 @@ let xAttempts = 1
 //eventos
 btnTry.addEventListener('click', handleTryClick)
 btnReset.addEventListener('click', handleResetClick)
-document.addEventListener('keydown', function(e){
-  if(e.key == 'Enter') {
-    handleResetClick()
 
-  }
-})
 
 function handleTryClick(event) {
 event.preventDefault()
